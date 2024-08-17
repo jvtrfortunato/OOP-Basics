@@ -7,8 +7,8 @@
     $b = 7;
     $operator = 'sum';
 
-    function calculate($a, $b, $operator){
-        if($operator == 'sum'){
+    function calculate($a, $b, $operator) {
+        if($operator == 'sum') {
             return $a + $b;
         }
 

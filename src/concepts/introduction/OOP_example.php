@@ -3,14 +3,14 @@
 
 <?php
 
-    class Calculator{
+    class Calculator {
 
         public $a = 10;
         public $b = 7;
         public $operator = 'sum';
 
         public function calculate(){
-            if($this->operator == 'sum'){
+            if($this->operator == 'sum') {
                 return $this->a + $this->b;
             }
 
