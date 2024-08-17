@@ -1,0 +1,48 @@
+The best way to understand the Object-Oriented Paradigm is by comparing
+ it to the Procedural Paradigm.
+
+- Procedural Paradigm: This is a programming style that organizes code 
+into procedures or functions that are executed in a specific sequence. 
+This paradigm is based on the idea of dividing a program into small 
+parts, called procedures or functions, which perform specific tasks.
+
+- Object-Oriented Programming (OOP) Paradigm: This is an approach to 
+organizing and structuring code based on modeling systems through 
+objects and classes. It centers on the idea of representing real-world 
+entities or concepts through data structures (objects) that have 
+behavior (methods) and state (attributes).
+
+We conclude that procedural and object-oriented (OOP) paradigms 
+represent two distinct approaches to organizing and structuring code 
+in programming. While the procedural paradigm focuses on the sequence 
+of function and procedure execution, separating data and functions, 
+the object-oriented paradigm focuses on modeling objects that 
+encapsulate data and behavior, promoting modularity, reuse, and 
+extensibility.
+
+
+
+
+------------------------------pt-BR-----------------------------------
+
+A melhor forma de compreender o Paradigma da Orientação a Obejetos,
+é fazendo uma comparação ao Paradigma Procedural.
+
+- Paradigma Procedural: é um estilo de programação que organiza o 
+código em procedimentos ou funções que são executados em uma sequência 
+específica. Esse paradigma é baseado na ideia de dividir um programa 
+em pequenas partes, chamadas de procedimentos ou funções, que realizam 
+tarefas específicas.
+
+- Paradigma de Orientação a Objetos (POO): é uma abordagem para 
+organizar e estruturar código que se baseia na modelagem de sistemas 
+através de objetos e classes. Ele é centrado na ideia de representar 
+entidades do mundo real ou conceitos através de estruturas de dados 
+(objetos) que possuem comportamento (métodos) e estado (atributos).
+
+Concluimos que os paradigmas procedural e orientado a objetos (POO) 
+representam duas abordagens distintas para organizar e estruturar o 
+código em programação. Enquanto o procedural Foca na sequência de 
+execução de funções e procedimentos, separando dados e funções, o 
+orientado a objetos Foca na modelagem de objetos que encapsulam dados 
+e comportamento, promovendo modularidade, reuso e extensibilidade.
