@@ -1,0 +1,75 @@
+Concept of Abstraction in OOP
+
+In Object-Oriented Programming (OOP), abstraction is a fundamental 
+concept that refers to the ability to hide the complex details of 
+an implementation and expose only the essential and relevant 
+characteristics of an object. Abstraction allows you to work with 
+more general and simplified concepts, making it easier to 
+understand and manipulate objects within a system.
+
+
+1. Hiding Details:
+What It Is: Abstraction hides the internal details of how an 
+object performs its tasks, showing only what is necessary for 
+other objects to interact with it.
+
+Example: In a banking system, the operation of "withdrawal" can 
+be represented by a method withdraw(). The user does not need to 
+know how the withdrawal is processed internally, only that the 
+operation can be performed.
+
+
+
+2. Interface and Implementation:
+What It Is: Abstraction separates the interface (what an object 
+does) from the implementation (how an object does it). The 
+interface defines the methods that the object can use, while the 
+implementation defines the behavior of those methods.
+
+Example: An interface Shape might have methods like 
+calculateArea() and calculatePerimeter(). Concrete classes such 
+as Circle and Rectangle implement these methods in different 
+ways, but the interface ensures that both types of shapes can be 
+used consistently.
+
+
+
+3. Ease of Modification:
+What It Is: By using abstraction, you can modify the internal 
+implementation of an object without affecting the code that 
+uses the object, as long as the interface remains the same.
+
+Example: If you decide to change how a bank calculates balances, 
+you can do so without altering the code that interacts with the 
+bank account, as long as the interface methods like 
+checkBalance() remain unchanged.
+
+
+
+4. Creating Classes and Objects:
+What It Is: In OOP, you use classes to define abstractions of 
+objects. The class describes the set of attributes and methods 
+that the object will have, allowing you to create instances of 
+the object based on the abstraction provided by the class.
+
+Example: The Car class might have attributes like model, year, 
+and methods like accelerate() and brake(). The Car class 
+provides an abstraction for all cars, regardless of their 
+individual specifications.
+
+
+
+5. Encapsulation:
+What It Is: Abstraction is often combined with encapsulation, 
+which is the process of hiding the internal details and exposing 
+only a public interface. Encapsulation helps protect the internal 
+state of objects and ensures they are used in a controlled 
+manner.
+
+Example: In a BankAccount class, details of the balance are 
+encapsulated and accessible only through public methods like 
+deposit() and withdraw(), preventing direct alterations.
+Abstraction allows you to work with higher-level concepts and 
+interact with objects without worrying about the complex details 
+of their internal implementation, making software development 
+more modular and manageable.
