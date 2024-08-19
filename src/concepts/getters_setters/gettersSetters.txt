@@ -1,0 +1,30 @@
+In Object-Oriented Programming (OOP), getters and setters are 
+methods used to control access to the attributes (also known 
+as properties or fields) of a class. They provide a way to 
+encapsulate the internal state of an object and manage how its 
+data is accessed and modified.
+
+A getter is a method that retrieves the value of a specific 
+attribute. It allows external code to access the value of a 
+private or protected attribute without directly exposing the 
+attribute itself.
+
+A setter is a method that allows external code to modify the 
+value of a specific attribute. It provides a controlled way to 
+set or update the value, often with validation or other logic 
+to ensure the attribute remains in a valid state.
+
+Getters and setters help encapsulate the internal state of an 
+object by restricting direct access to its attributes. This 
+ensures that the object's data can only be accessed or modified 
+through controlled methods, maintaining the integrity of the 
+object's state.
+
+Setters can include validation or other business logic to 
+ensure that any changes to an attribute are valid. For example, 
+a setter for an age attribute could check that the age is a 
+positive number before assigning it.
+
+Using getters and setters allows you to change the internal 
+implementation of how an attribute is stored or calculated 
+without affecting the external code that uses the object.

@@ -1,0 +1,38 @@
+In Object-Oriented Programming (OOP), magic getters and setters 
+refer to special methods that enable overloading of property 
+and method access in a class. These magic methods, typically 
+__get(), __set(), __isset(), __unset(), __call(), and 
+__callStatic() in PHP, allow developers to dynamically handle 
+the retrieval, assignment, checking, and deletion of 
+attributes, as well as method calls that don't exist in the 
+class. This concept is often used to provide more flexible 
+and dynamic behavior in objects, particularly when the exact 
+attributes or methods are not known at the time of writing the 
+code.
+
+The __get() method is automatically invoked when trying to 
+access a property that is not visible (e.g., private or 
+protected) or does not exist in the object. It allows for 
+custom behavior when retrieving these properties.
+
+The __set() method is automatically invoked when trying to set 
+a value to a property that is not visible or does not exist. 
+It provides a custom way to handle property assignments.
+
+They allow for dynamic attribute and method management, which 
+can be beneficial in cases where the object’s properties or 
+methods are not fixed or known ahead of time.
+
+Magic methods can reduce the amount of boilerplate code by 
+handling common operations in a centralized manner.
+
+They provide a way to enforce encapsulation even for properties 
+or methods that don’t explicitly exist, ensuring that all 
+access is routed through controlled methods.
+
+Magic methods can introduce a slight overhead, as they require 
+additional processing compared to direct property or method 
+access.
+
+They can make debugging more challenging since errors related 
+to undefined properties or methods might be harder to trace.
