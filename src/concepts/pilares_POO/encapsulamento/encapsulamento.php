@@ -12,11 +12,26 @@
         public function __set($attr, $valor) {
             $this->$attr = $valor;
         }
+
+        private function executarMania() {
+            echo 'Assoviar';
+        }
+
+        protected function responder() {
+            echo 'Oi';
+        }
+
+        public function executarAcao() {
+            $x = rand(1, 10);
+
+            if($x >= 1 && $x <=8) {
+                $this->responder();
+            } else {
+                $this->executarMania();
+            }
+        }
     }
 
     $pai = new Pai();
     //echo $pai->humor;
-    echo $pai->sobrenome;
-    $pai->sobrenome = 'Oliveira';
-    echo '<br>';
-    echo $pai->sobrenome;
+    echo $pai->executarAcao();
